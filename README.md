@@ -1,6 +1,8 @@
 ﻿# Fake-News-Kaggle
  
 **Project Overview: Fake News Detection using BERT**
+ 
+Kaggle: https://www.kaggle.com/competitions/fake-news/overview
 
 ### Step 1: Data Collection and Understanding
 - Gathered datasets containing news articles labeled as real or fake news.
