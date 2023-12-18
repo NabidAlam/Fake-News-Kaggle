@@ -62,14 +62,24 @@ Epoch 3/3, Average Training Loss: 0.0101
 
 Testing result:
 
-Accuracy: 0.9915723573320491
-Classification Report: 
-              precision    recall  f1-score   support
+## Results
 
-           0       0.99      0.99      0.99      2079
-           1       0.99      0.99      0.99      2074
+### Model Performance
 
-    accuracy                           0.99      4153
-   macro avg       0.99      0.99      0.99      4153
-weighted avg       0.99      0.99      0.99      4153
+- **Accuracy:** 99.16%
+- **Classification Report:**
+
+|           | Precision | Recall  | F1-Score | Support |
+|-----------|-----------|---------|----------|---------|
+| Class 0   | 0.99      | 0.99    | 0.99     | 2079    |
+| Class 1   | 0.99      | 0.99    | 0.99     | 2074    |
+| **Overall** | **0.99** | **0.99**| **0.99**| **4153**|
+
+- **Macro Average (Precision, Recall, F1-Score):** 0.99
+- **Weighted Average (Precision, Recall, F1-Score):** 0.99
+
+### Interpretation
+
+The model demonstrated exceptional performance on the test set, achieving a high accuracy of 99.16%. Both classes (0 and 1) showcase balanced precision, recall, and F1-score, indicating robust predictive capabilities and effectiveness in distinguishing between the classes.
+
 
