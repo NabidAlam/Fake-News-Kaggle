@@ -1,7 +1,5 @@
 ﻿# Fake-News-Kaggle
-
- Absolutely, here's a step-by-step breakdown of the project:
-
+ 
 **Project Overview: Fake News Detection using BERT**
 
 ### Step 1: Data Collection and Understanding
